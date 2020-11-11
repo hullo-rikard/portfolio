@@ -70,6 +70,7 @@ gulp.task('scss', gulp.series('bootstrap:scss', function compileScss() {
     .pipe(gulp.dest('./assets/css'))
 }));
 
+
 // Minify CSS
 gulp.task('css:minify', gulp.series('scss', function cssMinify() {
   return gulp.src("./assets/css/app.css")

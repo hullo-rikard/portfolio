@@ -1,1 +1,126 @@
 // Layout Style
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+h3 {
+  font-family: "Paytone One";
+  text-transform: uppercase;
+  margin: 10px auto;
+  color: #c44ef3;
+  font-size: 12vw;
+  letter-spacing: -0.5vw;
+  line-height: 1vw;
+  text-shadow: 0 0.8vw 0.6vw #8538a3,0 -0.3vw 0.2vw #de9bf8;
+  span {
+    display: block;
+    line-height: 22vw;
+  }
+}
+
+.container-fluid.start {
+    margin-top: 65px;
+    height: calc(100vh - 65px);
+    min-height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    background: rgb(251,251,251);
+    background: linear-gradient(180deg, #fbfbfbdc 0%, #ebebebdc 100%);
+    backdrop-filter: blur(6px);
+    padding: 0.8rem 1rem;
+    .navbar-collapse {
+        @media (max-width: 768px){
+            margin: 20px 0px;
+        }
+        text-align: center;
+
+    }
+    .navbar-toggler {
+        border: 0px;
+        &:focus,:active {
+            outline: none;
+            box-shadow: none;
+        }
+    }
+    .navbar-brand {
+        height: 40px;
+        width: auto;
+        align-self: flex-start;
+        justify-self: flex-start;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
+
+.container-fluid {
+    min-height: 100vh;
+    padding: 8vh 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &:nth-child(even) div.row.info{
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+    &.start {
+        background-color: #bf35f5;
+    }
+    &.portfolio-happy {
+        background-color: #f8f8f8;
+        background-image: url("../img/portfolio/happy-bg.jpg");
+        color: #080a3a;
+    }
+    &.portfolio-sheep {
+        background-color: #61a446;
+        background-image: url("../img/portfolio/sheep-bg.jpg");
+        color: #ffffff;
+    }
+    &.portfolio-marmor {
+        background-color: #dbdadf;
+        background-image: url("../img/portfolio/marmor-bg.jpg");
+        color: #292929
+    }
+    &.portfolio-dealr {
+        background-color: #dc4c4b;
+        background-image: url("../img/portfolio/dealr-bg.jpg");
+        color: #ffffff;
+    }
+    &.portfolio-arena {
+        background-color: #9cbcd2;
+        background-image: url("../img/portfolio/arena-bg.jpg");
+        color: #464646;
+    }
+}
+
+.container {
+    .row.logo img {
+        //max-width: 80%;
+        width: 60%;
+        max-width: 400px;
+        height: auto; 
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 8vh;
+        align-self: flex-start;
+    }
+    .row.info {
+        @media (max-width: 768px){
+            text-align: center;
+        }
+        img {
+            max-width: 80%;
+            max-height: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            @media (max-width: 768px){
+                padding-bottom: 9vh;
+            }
+        }
+        
+    }
+}
