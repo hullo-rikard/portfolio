@@ -46,7 +46,7 @@ gulp.task('vendor', gulp.parallel('vendor:fonts', 'vendor:js'));
 gulp.task('vendor:build', function() {
   var jsStream = gulp.src([
     './assets/js/vendor/bootstrap.bundle.min.js',
-    './assets/js/vendor/jquery.slim.min.js',
+    './assets/js/vendor/jquery.min.js',
     './assets/js/vendor/popper.min.js'
   ])
     .pipe(gulp.dest('./dist/assets/js/vendor'));
