@@ -9727,6 +9727,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+.btn span {
+  margin-right: 5px;
+}
+
 .fade-in-section {
   opacity: 0;
   transform: translateY(10vh);
@@ -9900,6 +9904,7 @@ a.text-dark:hover, a.text-dark:focus {
 .container-fluid.end, .end.container-sm, .end.container-md, .end.container-lg, .end.container-xl {
   background-color: #bf35f5;
   color: #ffffff;
+  min-height: auto;
 }
 
 .container .row.logo img {
@@ -9933,6 +9938,29 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-.btn span {
-  margin-right: 5px;
+#kontakta {
+  margin-top: 10vh;
+}
+
+#kontakta a.icons {
+  font-size: 3em;
+  margin: 10px 5px;
+  display: inline-block;
+}
+
+#kontakta a:link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#kontakta a:visited {
+  color: #ffffff;
+}
+
+#kontakta a:hover {
+  color: #ffffff;
+}
+
+#kontakta a:active {
+  color: #ffffff;
 }

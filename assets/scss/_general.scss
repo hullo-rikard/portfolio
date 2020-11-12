@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
+.btn{
+    span {
+        margin-right: 5px;
+    }
+}
+
 .fade-in-section {
     opacity: 0;
     transform: translateY(10vh);
@@ -41,8 +47,4 @@
     font-weight: normal;
     color:#fff;
     opacity:1;
-}
-
-body {
-    //padding-top: 4.5rem;
 }

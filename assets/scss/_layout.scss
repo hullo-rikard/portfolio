@@ -93,6 +93,7 @@
     &.end {
         background-color: #bf35f5;
         color: #ffffff;
+        min-height: auto;
     }
 }
 
@@ -123,8 +124,26 @@
     }
 }
 
-.btn{
-    span {
-        margin-right: 5px;
+
+
+#kontakta{
+    margin-top: 10vh;
+    a.icons {
+        font-size: 3em;
+        margin: 10px 5px;
+        display: inline-block;
+    }
+    a:link {
+        color: #ffffff;
+        text-decoration: underline;
+    }
+    a:visited {
+      color: #ffffff;
+    }
+    a:hover {
+      color: #ffffff;
+    }
+    a:active {
+      color: #ffffff;
     }
 }
