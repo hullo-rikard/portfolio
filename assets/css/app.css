@@ -9878,7 +9878,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .container-fluid.end, .end.container-sm, .end.container-md, .end.container-lg, .end.container-xl {
   background-color: #bf35f5;
-  color: #ffffff;
+  color: #0a0a0a;
 }
 
 .container .row.logo img {
