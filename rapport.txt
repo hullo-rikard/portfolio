@@ -59,7 +59,6 @@ Svårigheter:
 1.4.11 (AA)? - Använd tillräckliga kontraster i komponenter och grafik
 1.4.12 (AA)? - Se till att det går att öka avstånd mellan tecken, rader, stycken och ord
 1.4.2 (A) - Ge användaren möjlighet att pausa, stänga av eller sänka ljud (i videon)
-1.4.3 (AA) - Använd tillräcklig kontrast mellan text och bakgrund
 1.4.4 (AA) - Se till att text går att förstora utan problem
 1.4.5 (AA) - Använd text, inte bilder, för att visa text
 2.4.2 (A)? - Skriv beskrivande sidtitlar
