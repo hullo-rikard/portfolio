@@ -24,6 +24,25 @@
     user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
+.modal-dialog {
+    max-width: 90vw;
+    margin: 30px auto;
+}
+.modal-body {
+    position:relative;
+    padding:0px;
+}
+.close {
+    position:absolute;
+    right:0px;
+    top:-40px;
+    z-index:999;
+    font-size:2rem;
+    font-weight: normal;
+    color:#fff;
+    opacity:1;
+}
+
 body {
     //padding-top: 4.5rem;
 }

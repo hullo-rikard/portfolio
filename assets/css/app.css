@@ -9755,6 +9755,27 @@ a.text-dark:hover, a.text-dark:focus {
   /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
+.modal-dialog {
+  max-width: 90vw;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.close {
+  position: absolute;
+  right: 0px;
+  top: -40px;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+}
+
 .container-fluid.start, .start.container-sm, .start.container-md, .start.container-lg, .start.container-xl {
   margin-top: 65px;
   height: calc(100vh - 65px);
@@ -9910,4 +9931,8 @@ a.text-dark:hover, a.text-dark:focus {
   .container .row.info img {
     padding-bottom: 9vh;
   }
+}
+
+.btn span {
+  margin-right: 5px;
 }

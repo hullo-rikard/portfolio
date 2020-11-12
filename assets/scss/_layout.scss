@@ -98,7 +98,6 @@
 
 .container {
     .row.logo img {
-        //max-width: 80%;
         width: 60%;
         max-width: 400px;
         height: auto; 
@@ -121,5 +120,11 @@
             }
         }
         
+    }
+}
+
+.btn{
+    span {
+        margin-right: 5px;
     }
 }
