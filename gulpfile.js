@@ -45,7 +45,7 @@ gulp.task('vendor', gulp.parallel('vendor:fonts', 'vendor:js'));
 // Copy vendor's js to /dist
 gulp.task('vendor:build', function() {
   var jsStream = gulp.src([
-    './assets/js/vendor/bootstrap.bundle.min.js',
+    './assets/js/vendor/bootstrap.min.js',
     './assets/js/vendor/jquery.min.js',
     './assets/js/vendor/popper.min.js'
   ])
