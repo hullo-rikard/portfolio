@@ -1,38 +1,75 @@
 ***** G-krav *****
-- Ni ska visa att ni kan använda SCSS genom att använda mixins och nästlade selektorer.
-- Implementera minst 2 tillgänglighetskrav.
-- Sidan ska vara responsiv och använda media queries.
-- Sidan ska använda sig av en layout som i någon form använder sig av CSS Grids eller Flexbox.
-- Det ska finnas en sida som beskriver utbildningen.
-- I ditt repo ska det finnas en rapport.txt där du beskriver Scrum, grafisk profil och tillgänglighet 
+✅ Ni ska visa att ni kan använda SCSS genom att använda mixins och nästlade selektorer.
+✅ Implementera minst 2 tillgänglighetskrav.
+✅ Sidan ska vara responsiv och använda media queries.
+✅ Sidan ska använda sig av en layout som i någon form använder sig av CSS Grids eller Flexbox.
+✅ Det ska finnas en sida som beskriver utbildningen.
+✅ I ditt repo ska det finnas en rapport.txt där du beskriver Scrum, grafisk profil och tillgänglighet 
   så att jag kan se att du förstår dessa begrepp.
 
 ***** VG-krav *****
-- Allt som ingår för G och inte överskrivs av något VG-krav.
-- Sidan ska använda sig av en layout som i någon form använder sig av CSS Grids OCH Flexbox.
-- Ni ska ha någon funktionalitet som använder sig av CSS Transitions eller CSS Animations.
+✅ Allt som ingår för G och inte överskrivs av något VG-krav.
+✅ Sidan ska använda sig av en layout som i någon form använder sig av CSS Grids OCH Flexbox.
+✅ Ni ska ha någon funktionalitet som använder sig av CSS Transitions eller CSS Animations.
   Det kan t ex vara en meny som fälls ut animerat när man klickar på den, innehåll som sakta
   skiftar bakgrundsfärg när man hovrar den eller någon liknande. Ni får använda er av JavaScript
   om ni vill, men ni får även använda er av hoover-selektorer om det passar er bättre.
-- All kod (HTML, SCSS/CSS, JavaScript) ska vara välskriven, korrekt indenterad och kommenterad.
-- Implementera minst 5 tillgänglighetskrav.
-- Er rapport ska även innehålla en del där ni diskuterar för- och nackdelar/svårigheter med de olika teknikerna.
-- Lämna in i tid, dvs om du får en restuppgift kommer du inte att kunna få VG, enbart IG/G.
+✅ All kod (HTML, SCSS/CSS, JavaScript) ska vara välskriven, korrekt indenterad och kommenterad.
+✅ Implementera minst 5 tillgänglighetskrav.
+✅ Er rapport ska även innehålla en del där ni diskuterar för- och nackdelar/svårigheter med de olika teknikerna.
+✅ Lämna in i tid, dvs om du får en restuppgift kommer du inte att kunna få VG, enbart IG/G.
 
 
 Inlämning senast söndag 15/11 + muntlig reovisning 12-13/11.
 
 
+Min teknik:
+NPM - Installerar gulp, bootstrap, browser sync, m.m.
+Gulp - Scss till css.min, Js till js.min. Dev & build tasks
+Bootstrap - Dels grid, dels flexbox
+FontAwesome
+
+
 ################  SCRUM  ################
-
-
-
+Förklaring:
+Fördelar: 
+Nackdelar:
+Svårigheter:
 
 
 ###########  GRAFISK PROFIL  ############
-
-
-
+Förklaring:
+Fördelar:
+Nackdelar:
+Svårigheter:
 
 
 ###########  TILLGÄNGLIGHET  ############
+Förklaring:
+Fördelar:
+Nackdelar:
+Svårigheter:
+
+
+1.1.1 (A) - Beskriv med text allt innehåll som inte är text
+1.3.2 (A) - Presentera innehållet i en meningsfull ordning för alla
+1.3.4 (AA) - Se till att allt innehåll presenteras rätt oavsett skärmens riktning
+1.3.5 (AA) - Märk upp vanliga formulärfält i koden
+1.4.10 (AA) - Skapa en flexibel layout som fungerar vid förstoring eller liten skärm
+1.4.11 (AA)? - Använd tillräckliga kontraster i komponenter och grafik
+1.4.12 (AA)? - Se till att det går att öka avstånd mellan tecken, rader, stycken och ord
+1.4.2 (A) - Ge användaren möjlighet att pausa, stänga av eller sänka ljud (i videon)
+1.4.3 (AA) - Använd tillräcklig kontrast mellan text och bakgrund
+1.4.4 (AA) - Se till att text går att förstora utan problem
+1.4.5 (AA) - Använd text, inte bilder, för att visa text
+2.4.2 (A)? - Skriv beskrivande sidtitlar
+2.4.3 (A) - Gör en logisk tab-ordning
+2.4.4 (A) - Skriv tydliga länkar
+2.4.7 (AA) - Markera tydligt vilket fält eller element som är i fokus
+2.5.3 (A) - Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter
+3.1.1 (A) - Ange sidans språk i koden
+3.2.1 (A) - Utför inga oväntade förändringar vid fokusering
+3.2.2 (A) - Utför inga oväntade förändringar vid inmatning
+3.2.3 (AA) - Var konsekvent i navigation, struktur och utformning
+3.3.1 (A) - Visa var ett fel uppstått och beskriv det tydligt (i kontaktformuläret)
+4.1.1 (A) - Se till att koden validerar

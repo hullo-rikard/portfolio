@@ -9727,20 +9727,32 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
-h3 {
-  font-family: "Paytone One";
-  text-transform: uppercase;
-  margin: 10px auto;
-  color: #c44ef3;
-  font-size: 12vw;
-  letter-spacing: -0.5vw;
-  line-height: 1vw;
-  text-shadow: 0 0.8vw 0.6vw #8538a3,0 -0.3vw 0.2vw #de9bf8;
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(10vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
 }
 
-h3 span {
-  display: block;
-  line-height: 22vw;
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
 .container-fluid.start, .start.container-sm, .start.container-md, .start.container-lg, .start.container-xl {
@@ -9752,6 +9764,22 @@ h3 span {
   align-items: center;
 }
 
+.container-fluid.start h1, .start.container-sm h1, .start.container-md h1, .start.container-lg h1, .start.container-xl h1 {
+  font-family: "Paytone One";
+  text-transform: uppercase;
+  margin: 10px auto;
+  color: #c44ef3;
+  font-size: 12vw;
+  letter-spacing: -0.5vw;
+  line-height: 1vw;
+  text-shadow: 0 0.8vw 0.6vw #8538a3,0 -0.3vw 0.2vw #de9bf8;
+}
+
+.container-fluid.start h1 span, .start.container-sm h1 span, .start.container-md h1 span, .start.container-lg h1 span, .start.container-xl h1 span {
+  display: block;
+  line-height: 22vw;
+}
+
 .navbar {
   background: #fbfbfb;
   background: linear-gradient(180deg, #fbfbfbdc 0%, #ebebebdc 100%);
@@ -9760,13 +9788,15 @@ h3 span {
   padding: 0.8rem 1rem;
 }
 
-.navbar .navbar-collapse {
-  text-align: center;
+@media (max-width: 768px) {
+  .navbar .navbar-collapse {
+    margin: 20px 0px;
+  }
 }
 
 @media (max-width: 768px) {
   .navbar .navbar-collapse {
-    margin: 20px 0px;
+    text-align: center;
   }
 }
 
@@ -9806,6 +9836,12 @@ h3 span {
   text-align: right;
 }
 
+@media (max-width: 768px) {
+  .container-fluid:nth-child(even) div.row.info, .container-sm:nth-child(even) div.row.info, .container-md:nth-child(even) div.row.info, .container-lg:nth-child(even) div.row.info, .container-xl:nth-child(even) div.row.info {
+    text-align: center;
+  }
+}
+
 .container-fluid.start, .start.container-sm, .start.container-md, .start.container-lg, .start.container-xl {
   background-color: #bf35f5;
 }
@@ -9838,6 +9874,11 @@ h3 span {
   background-color: #9cbcd2;
   background-image: url("../img/portfolio/arena-bg.jpg");
   color: #464646;
+}
+
+.container-fluid.end, .end.container-sm, .end.container-md, .end.container-lg, .end.container-xl {
+  background-color: #bf35f5;
+  color: #ffffff;
 }
 
 .container .row.logo img {

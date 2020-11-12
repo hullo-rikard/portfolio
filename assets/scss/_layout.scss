@@ -1,22 +1,5 @@
 // Layout Style
 
-@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
-
-h3 {
-  font-family: "Paytone One";
-  text-transform: uppercase;
-  margin: 10px auto;
-  color: #c44ef3;
-  font-size: 12vw;
-  letter-spacing: -0.5vw;
-  line-height: 1vw;
-  text-shadow: 0 0.8vw 0.6vw #8538a3,0 -0.3vw 0.2vw #de9bf8;
-  span {
-    display: block;
-    line-height: 22vw;
-  }
-}
-
 .container-fluid.start {
     margin-top: 65px;
     height: calc(100vh - 65px);
@@ -24,6 +7,20 @@ h3 {
     text-align: center;
     display: flex;
     align-items: center;
+    h1 {
+        font-family: "Paytone One";
+        text-transform: uppercase;
+        margin: 10px auto;
+        color: #c44ef3;
+        font-size: 12vw;
+        letter-spacing: -0.5vw;
+        line-height: 1vw;
+        text-shadow: 0 0.8vw 0.6vw #8538a3,0 -0.3vw 0.2vw #de9bf8;
+        span {
+          display: block;
+          line-height: 22vw;
+        }
+    }
 }
 
 .navbar {
@@ -35,8 +32,7 @@ h3 {
         @media (max-width: 768px){
             margin: 20px 0px;
         }
-        text-align: center;
-
+        @include center-text-small-screens;
     }
     .navbar-toggler {
         border: 0px;
@@ -64,6 +60,7 @@ h3 {
     &:nth-child(even) div.row.info{
         flex-direction: row-reverse;
         text-align: right;
+        @include center-text-small-screens;
     }
     &.start {
         background-color: #bf35f5;
@@ -93,6 +90,10 @@ h3 {
         background-image: url("../img/portfolio/arena-bg.jpg");
         color: #464646;
     }
+    &.end {
+        background-color: #bf35f5;
+        color: #ffffff;
+    }
 }
 
 .container {
@@ -108,9 +109,7 @@ h3 {
         align-self: flex-start;
     }
     .row.info {
-        @media (max-width: 768px){
-            text-align: center;
-        }
+        @include center-text-small-screens;
         img {
             max-width: 80%;
             max-height: 50%;

@@ -1,1 +1,7 @@
 // Mixins
+
+@mixin center-text-small-screens {
+    @media (max-width: 768px){
+        text-align: center;
+    }
+}
