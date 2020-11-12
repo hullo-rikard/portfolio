@@ -1,5 +1,7 @@
 $("document").ready(function () {
 
+  $('body').fadeIn('500');
+
   $(document).on('click', 'a[href^="#"]', function (event) {
     event.preventDefault();
 
