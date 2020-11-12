@@ -9848,31 +9848,31 @@ a.text-dark:hover, a.text-dark:focus {
 
 .container-fluid.portfolio-happy, .portfolio-happy.container-sm, .portfolio-happy.container-md, .portfolio-happy.container-lg, .portfolio-happy.container-xl {
   background-color: #f8f8f8;
-  background-image: url("../img/portfolio/happy-bg.jpg");
+  background-image: url("../img/portfolio/happy-bg.webp");
   color: #080a3a;
 }
 
 .container-fluid.portfolio-sheep, .portfolio-sheep.container-sm, .portfolio-sheep.container-md, .portfolio-sheep.container-lg, .portfolio-sheep.container-xl {
   background-color: #61a446;
-  background-image: url("../img/portfolio/sheep-bg.jpg");
+  background-image: url("../img/portfolio/sheep-bg.webp");
   color: #ffffff;
 }
 
 .container-fluid.portfolio-marmor, .portfolio-marmor.container-sm, .portfolio-marmor.container-md, .portfolio-marmor.container-lg, .portfolio-marmor.container-xl {
   background-color: #dbdadf;
-  background-image: url("../img/portfolio/marmor-bg.jpg");
+  background-image: url("../img/portfolio/marmor-bg.webp");
   color: #292929;
 }
 
 .container-fluid.portfolio-dealr, .portfolio-dealr.container-sm, .portfolio-dealr.container-md, .portfolio-dealr.container-lg, .portfolio-dealr.container-xl {
   background-color: #dc4c4b;
-  background-image: url("../img/portfolio/dealr-bg.jpg");
+  background-image: url("../img/portfolio/dealr-bg.webp");
   color: #ffffff;
 }
 
 .container-fluid.portfolio-arena, .portfolio-arena.container-sm, .portfolio-arena.container-md, .portfolio-arena.container-lg, .portfolio-arena.container-xl {
   background-color: #9cbcd2;
-  background-image: url("../img/portfolio/arena-bg.jpg");
+  background-image: url("../img/portfolio/arena-bg.webp");
   color: #464646;
 }
 

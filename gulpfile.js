@@ -100,7 +100,10 @@ gulp.task('replaceHtmlBlock', function () {
   return gulp.src(['*.html'])
     .pipe(htmlreplace({
       'js': 'assets/js/app.min.js',
-      'css': 'assets/css/app.min.css'
+      'css': {
+        src: [['assets/css/app.min.css', 'assets/css/app.min.css']],
+        tpl: '<link rel="preload" href="%s" as="style" onload="this.onload=null;this.rel=stylesheet"><noscript><link rel="stylesheet" href="%s"></noscript>'
+      }
     }))
     .pipe(gulp.dest('dist/'));
 });
