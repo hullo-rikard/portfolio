@@ -1,3 +1,8 @@
+Individuell inlämningsuppgift - Frontend 2
+-------------------------------------------
+
+Inlämning senast söndag 15/11 + muntlig reovisning 12-13/11.
+
 ***** G-krav *****
 ✅ Ni ska visa att ni kan använda SCSS genom att använda mixins och nästlade selektorer.
 ✅ Implementera minst 2 tillgänglighetskrav.
@@ -20,35 +25,99 @@
 ✅ Lämna in i tid, dvs om du får en restuppgift kommer du inte att kunna få VG, enbart IG/G.
 
 
-Inlämning senast söndag 15/11 + muntlig reovisning 12-13/11.
-
-
-Min teknik:
+Projektet har byggts med hjälp av:
 NPM - Installerar gulp, bootstrap, browser sync, m.m.
-Gulp - Scss till css.min, Js till js.min. Dev & build tasks
+Gulp - Scss till css.min, Js till js.min. Dev & build tasks (se README.md för mer info)
 Bootstrap - Dels grid, dels flexbox
 FontAwesome
 
 
+#########################################
 ################  SCRUM  ################
-Förklaring:
-Fördelar: 
-Nackdelar:
-Svårigheter:
+#########################################
+
+🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️ Förklaring 🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️
+
+Scrum är en agil utvecklingsmetod som värdesätter:
+🔸 Individer & interaktioner framför processer & verktyg.
+🔸 Fungerande programvara framför omfattande dokumentation.
+🔸 Kundsamarbete framför kontraktsförhandling
+🔸 Anpassning till förändring framför att följa en plan.
+
+Det finns tre roller i SCRUM:
+🔸 Produktägaren - sammanställer & prioriterar önskemål om tillägg & ändringar,
+främst utifrån affärsnytta. Rollen ägs ofta av en projektledare hos beställaren. 
+🔸 Scrum master - coachar teamet & ser till att allt rullar på smidigt. SM stämmer
+av mellan aktörer samt ser till att det inte finns några hinder för teamet, SM är
+oftast en del av utvecklingsteamet.
+🔸 Utvecklingsteamet - är självorganiserande & bestämmer gemensamt vem som gör
+vad & hur man löser olika uppgifter.
+
+Scrum aktiviteter:
+🔸 Sprint - kan vara mellan 3-30 dagar lång. En ny sprint inleds med ett planeringsmöte
+& avslutas med en genomgång av det som utvecklats under sprinten samt en återblick.
+🔸 Sprint planning - utvecklingsteamet går igenom produktens backlogg tillsammans med
+produktägaren. Här beslutar utvecklingsteamet vad som ska genomföras under sprinten &
+hur detta ska gå till.  
+🔸 Daily scrum - korta statusmöten för utvecklingsteamet, SM går igenom alla personer
+i utvecklingsteamet som besvarar tre frågor:
+Vad har gjorts sen igår? Vad göras tills imorgon? Finns det några hinder?
+🔸 Sprint review - genomgång av arbetet som genomförst under sprinten samt demonstation
+av funktionaliteten för produktägaren, kunder & andra inbjuda intressenter.
+🔸 Sprint retrospective - scrumteamet utvärderar tillsammans den senaste sprinten & 
+identifierar möjliga förbättringar i arbetssättet. 
+
+Artefakter inom Scrum:
+🔸 Product backlog - en ordnad lista med önskemål för produkten. Produktägaren
+prioriterar & ansvarar för denna. Denna är levande & kan alltid komma att ändras.
+🔸 Sprint backlog - en lista över uppgifter som utvecklingsteamet bedömt att de kommer
+att leverera under kommande sprint. Varje uppgift ska vara tydlig definerad.
+🔸 Inkrement - är summan av alla uppgifter som färdigställts under en sprint, det ska 
+vara i användbart skick & uppfylla utvecklingsteamet definition av klart.
+
+🔥🔥🔥 Fördelar 🔥🔥🔥 
+
+En fördel med scrum är fokuseringen på affärsnytta & möjligheten att förändra
+projektet på ett strukturerat sätt. Det är även en agil utvecklingsmetod som är
+relativt tydligt & lättförståelig.
+
+🥶🥶🥶 Nackdelar 🥶🥶🥶 
+
+Jag personligen är inget jättefan av Scrum, främst gillar jag inte ihopslafsandet
+av kod för att uppleva "Fungerande programvara framför omfattande dokumentation".
+Visst kan det ibland vara bra att snabbt kunna producera fungerande kod, men är det jag 
+som senare ska ta hand om underhållet så vill jag gärna ha koden ordentligt & genomtänkt
+skriven. Tekniskt skuld i olika former är något som enligt mig enklet kan uppstå.
 
 
+#########################################
 ###########  GRAFISK PROFIL  ############
-Förklaring:
-Fördelar:
-Nackdelar:
-Svårigheter:
+#########################################
+
+🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️ Förklaring 🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️
+
+En grafisk profil är 'regler' som beskriver användandet av ett företagets eller en
+organisations logotyp, färger och bokstavstilar som ska användas i de trycksaker
+företaget eller organisationen producerar.
+
+🔥🔥🔥 Fördelar 🔥🔥🔥 
+
+🥶🥶🥶 Nackdelar 🥶🥶🥶 
+
+😡😡😡 Svårigheter 😡😡😡 
 
 
+#########################################
 ###########  TILLGÄNGLIGHET  ############
-Förklaring:
-Fördelar:
-Nackdelar:
-Svårigheter:
+#########################################
+
+🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️ Förklaring 🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️
+
+🔥🔥🔥 Fördelar 🔥🔥🔥 
+
+🥶🥶🥶 Nackdelar 🥶🥶🥶 
+
+😡😡😡 Svårigheter 😡😡😡 
 
 
 1.1.1 (A) - Beskriv med text allt innehåll som inte är text
