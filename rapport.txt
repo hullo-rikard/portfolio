@@ -104,8 +104,6 @@ företaget eller organisationen producerar.
 
 🥶🥶🥶 Nackdelar 🥶🥶🥶 
 
-😡😡😡 Svårigheter 😡😡😡 
-
 
 #########################################
 ###########  TILLGÄNGLIGHET  ############
@@ -117,27 +115,23 @@ företaget eller organisationen producerar.
 
 🥶🥶🥶 Nackdelar 🥶🥶🥶 
 
-😡😡😡 Svårigheter 😡😡😡 
 
+#########################################
+## IMPLEMENTERADE TILLGÄNGLIGHETSKRAV  ##
+#########################################
 
 1.1.1 (A) - Beskriv med text allt innehåll som inte är text
 1.3.2 (A) - Presentera innehållet i en meningsfull ordning för alla
 1.3.4 (AA) - Se till att allt innehåll presenteras rätt oavsett skärmens riktning
-1.3.5 (AA) - Märk upp vanliga formulärfält i koden
 1.4.10 (AA) - Skapa en flexibel layout som fungerar vid förstoring eller liten skärm
-1.4.11 (AA)? - Använd tillräckliga kontraster i komponenter och grafik
-1.4.12 (AA)? - Se till att det går att öka avstånd mellan tecken, rader, stycken och ord
+1.4.12 (AA) - Se till att det går att öka avstånd mellan tecken, rader, stycken och ord
 1.4.2 (A) - Ge användaren möjlighet att pausa, stänga av eller sänka ljud (i videon)
 1.4.4 (AA) - Se till att text går att förstora utan problem
 1.4.5 (AA) - Använd text, inte bilder, för att visa text
 2.4.2 (A)? - Skriv beskrivande sidtitlar
-2.4.3 (A) - Gör en logisk tab-ordning
 2.4.4 (A) - Skriv tydliga länkar
-2.4.7 (AA) - Markera tydligt vilket fält eller element som är i fokus
 2.5.3 (A) - Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter
 3.1.1 (A) - Ange sidans språk i koden
 3.2.1 (A) - Utför inga oväntade förändringar vid fokusering
-3.2.2 (A) - Utför inga oväntade förändringar vid inmatning
 3.2.3 (AA) - Var konsekvent i navigation, struktur och utformning
-3.3.1 (A) - Visa var ett fel uppstått och beskriv det tydligt (i kontaktformuläret)
 4.1.1 (A) - Se till att koden validerar
