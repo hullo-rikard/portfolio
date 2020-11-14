@@ -96,14 +96,21 @@ skriven. Tekniskt skuld i olika former är något som enligt mig enklet kan upps
 
 🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️ Förklaring 🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️
 
-En grafisk profil är 'regler' som beskriver användandet av ett företagets eller en
-organisations logotyp, färger och bokstavstilar som ska användas i de trycksaker
-företaget eller organisationen producerar.
+En grafisk profil beskriver kort sagt ett företags visuella identitet. Det gäller allt
+från hur logotypen ser ut till vilka färger som används i annonser & hur texter ser
+ut på webben. En grafisk profil har tre-fem grundingredienser: logotyp, färger, typsnitt,
+grafiska element & bilder.
+
 
 🔥🔥🔥 Fördelar 🔥🔥🔥 
 
+En grafisk profil skapar tydlighet & igenkänning. Den ger även möjlighet för att egentligen
+tillåta vem som helst att genomföra grafiskt arbete som passar in i övriga verksamheten.
+
 🥶🥶🥶 Nackdelar 🥶🥶🥶 
 
+Kommer inte att passa alla, vissa kanske rentav tackar nej till jobb på grund av 
+att profilen inte faller grafikern i smaken. Kan vara kostsam att skapa.
 
 #########################################
 ###########  TILLGÄNGLIGHET  ############
@@ -111,9 +118,17 @@ företaget eller organisationen producerar.
 
 🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️ Förklaring 🤷🏼‍♂️🤷🏼‍♂️🤷🏼‍♂️
 
+Tillgänglighet innebär att människor med funktionshinder kan uppfatta, förstå, navigera,
+interagera med, & bidra med information till webben.
+
 🔥🔥🔥 Fördelar 🔥🔥🔥 
 
+Ger alla människor likvärdiga möjligher att använda webben.
+
 🥶🥶🥶 Nackdelar 🥶🥶🥶 
+
+Tidskrävande att implementera samt att det kan krocka med den grafiska profilen. Häftiga
+grafiska designer går oftast inte hand i hand med bra tillgänglighet.
 
 
 #########################################
@@ -124,11 +139,9 @@ företaget eller organisationen producerar.
 1.3.2 (A) - Presentera innehållet i en meningsfull ordning för alla
 1.3.4 (AA) - Se till att allt innehåll presenteras rätt oavsett skärmens riktning
 1.4.10 (AA) - Skapa en flexibel layout som fungerar vid förstoring eller liten skärm
-1.4.12 (AA) - Se till att det går att öka avstånd mellan tecken, rader, stycken och ord
 1.4.2 (A) - Ge användaren möjlighet att pausa, stänga av eller sänka ljud (i videon)
 1.4.4 (AA) - Se till att text går att förstora utan problem
 1.4.5 (AA) - Använd text, inte bilder, för att visa text
-2.4.2 (A)? - Skriv beskrivande sidtitlar
 2.4.4 (A) - Skriv tydliga länkar
 2.5.3 (A) - Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter
 3.1.1 (A) - Ange sidans språk i koden
