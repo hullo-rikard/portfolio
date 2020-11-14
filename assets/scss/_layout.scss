@@ -69,16 +69,38 @@
         background-color: #f8f8f8;
         background-image: url("../img/portfolio/happy-bg.webp");
         color: #080a3a;
+        .btn-primary {
+            background-color: #0a0a37;
+            border-color: #0a0a37;
+            &:active {
+                background-color: #c035f5;
+            }
+        }
     }
     &.portfolio-sheep {
         background-color: #61a446;
         background-image: url("../img/portfolio/sheep-bg.webp");
         color: #ffffff;
+        .btn-primary {
+            background-color: #ffffff;
+            border-color: #ffffff;
+            color: #71a254;
+            &:active {
+                background-color: #c035f5;
+            }
+        }
     }
     &.portfolio-marmor {
         background-color: #dbdadf;
         background-image: url("../img/portfolio/marmor-bg.webp");
-        color: #292929
+        color: #292929;
+        .btn-primary {
+            background-color: #c59c6a;
+            border-color: #c59c6a;
+            &:active {
+                background-color: #c035f5;
+            }
+        }
     }
     &.portfolio-dealr {
         background-color: #dc4c4b;

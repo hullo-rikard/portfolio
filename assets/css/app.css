@@ -9877,16 +9877,44 @@ a.text-dark:hover, a.text-dark:focus {
   color: #080a3a;
 }
 
+.container-fluid.portfolio-happy .btn-primary, .portfolio-happy.container-sm .btn-primary, .portfolio-happy.container-md .btn-primary, .portfolio-happy.container-lg .btn-primary, .portfolio-happy.container-xl .btn-primary {
+  background-color: #0a0a37;
+  border-color: #0a0a37;
+}
+
+.container-fluid.portfolio-happy .btn-primary:active, .portfolio-happy.container-sm .btn-primary:active, .portfolio-happy.container-md .btn-primary:active, .portfolio-happy.container-lg .btn-primary:active, .portfolio-happy.container-xl .btn-primary:active {
+  background-color: #c035f5;
+}
+
 .container-fluid.portfolio-sheep, .portfolio-sheep.container-sm, .portfolio-sheep.container-md, .portfolio-sheep.container-lg, .portfolio-sheep.container-xl {
   background-color: #61a446;
   background-image: url("../img/portfolio/sheep-bg.webp");
   color: #ffffff;
 }
 
+.container-fluid.portfolio-sheep .btn-primary, .portfolio-sheep.container-sm .btn-primary, .portfolio-sheep.container-md .btn-primary, .portfolio-sheep.container-lg .btn-primary, .portfolio-sheep.container-xl .btn-primary {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #71a254;
+}
+
+.container-fluid.portfolio-sheep .btn-primary:active, .portfolio-sheep.container-sm .btn-primary:active, .portfolio-sheep.container-md .btn-primary:active, .portfolio-sheep.container-lg .btn-primary:active, .portfolio-sheep.container-xl .btn-primary:active {
+  background-color: #c035f5;
+}
+
 .container-fluid.portfolio-marmor, .portfolio-marmor.container-sm, .portfolio-marmor.container-md, .portfolio-marmor.container-lg, .portfolio-marmor.container-xl {
   background-color: #dbdadf;
   background-image: url("../img/portfolio/marmor-bg.webp");
   color: #292929;
+}
+
+.container-fluid.portfolio-marmor .btn-primary, .portfolio-marmor.container-sm .btn-primary, .portfolio-marmor.container-md .btn-primary, .portfolio-marmor.container-lg .btn-primary, .portfolio-marmor.container-xl .btn-primary {
+  background-color: #c59c6a;
+  border-color: #c59c6a;
+}
+
+.container-fluid.portfolio-marmor .btn-primary:active, .portfolio-marmor.container-sm .btn-primary:active, .portfolio-marmor.container-md .btn-primary:active, .portfolio-marmor.container-lg .btn-primary:active, .portfolio-marmor.container-xl .btn-primary:active {
+  background-color: #c035f5;
 }
 
 .container-fluid.portfolio-dealr, .portfolio-dealr.container-sm, .portfolio-dealr.container-md, .portfolio-dealr.container-lg, .portfolio-dealr.container-xl {
